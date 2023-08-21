@@ -231,7 +231,6 @@
             // 
             // txt_manv
             // 
-            this.txt_manv.Enabled = false;
             this.txt_manv.Font = new System.Drawing.Font("Times New Roman", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txt_manv.Location = new System.Drawing.Point(275, 171);
             this.txt_manv.Margin = new System.Windows.Forms.Padding(4);

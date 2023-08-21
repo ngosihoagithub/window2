@@ -57,7 +57,7 @@ namespace QuanLySieuThi.DAL
         {
             SqlConnection conn = CreateConnection();
             conn.Open();
-            SqlCommand cmd = new SqlCommand("insert into Customer values (insert into Customer values (@id,@name,@id_area)", conn);
+            SqlCommand cmd = new SqlCommand("insert into Customer values (@id,@name,@id_area)", conn);
             cmd.Parameters.Add(new SqlParameter("@id", cus.Id));
             cmd.Parameters.Add(new SqlParameter("@name", cus.Name));
             cmd.Parameters.Add(new SqlParameter("@id_area", cus.Area.Id));

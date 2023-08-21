@@ -57,5 +57,25 @@ namespace QuanLySieuThi
         {
 
         }
+
+        private void thôngTinPhầnMềmToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            string currentYear = DateTime.Now.Year.ToString();
+            String tt = "";
+            tt += "Phần mềm : Quản lý Siêu thị  \n";
+
+            tt += "\n ";
+            tt += "version : 1.1";
+            tt += "\n\n";
+            tt += " Học phần : ";
+            tt += "\t";
+            tt += "____Lập Trinh Window____";
+            tt += "\n";
+            tt += "\nSinh viên thực hiện : - Ngô Sĩ Hòa";
+            tt += "\n";
+            tt += "\nGiảng Viên Dảng Dạy : - Huỳnh Tấn Phát";
+            tt += "\n";
+            MessageBox.Show((tt), "Thông tin", MessageBoxButtons.OK);
+        }
     }
 }

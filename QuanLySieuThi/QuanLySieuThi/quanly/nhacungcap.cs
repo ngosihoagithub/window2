@@ -40,7 +40,7 @@ namespace QuanLySieuThi.quanly
 
         private void clear()
         {
-            throw new NotImplementedException();
+           
         }
 
         private void btn_sua_Click(object sender, EventArgs e)

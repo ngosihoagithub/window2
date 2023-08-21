@@ -42,7 +42,6 @@ namespace QuanLySieuThi.banhang
         }
 
 
-
         private void txt_timkiem_TextChanged(object sender, EventArgs e)
         {
             string load1 = "Select masp,tensp,donvitinh,solg,giaban from sanpham where tensp like N'%" + txt_timkiem.Text + "%' ";
@@ -62,8 +61,7 @@ namespace QuanLySieuThi.banhang
             txt_dangthuoc.Text = db1.Rows[curow].Cells[2].Value.ToString();
             txt_gia.Text = db1.Rows[curow].Cells[4].Value.ToString();
             txt_thuoctrongkho.Text = db1.Rows[curow].Cells[3].Value.ToString();
-             
-            
+   
         }
 
         private void dta2_Click(object sender, EventArgs e)

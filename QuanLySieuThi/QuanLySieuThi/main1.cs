@@ -105,15 +105,22 @@ namespace QuanLySieuThi
 
         private void quanLyToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            Form1 frm = new Form1();
+            CustomerGUI1 frm = new CustomerGUI1();
             frm.ShowDialog();
             frm = null;
-            this.Show();
         }
 
         private void qunLyNhanVienToolStripMenuItem_Click(object sender, EventArgs e)
         {
             Form2 frm = new Form2();
+            frm.ShowDialog();
+            frm = null;
+            this.Show();
+        }
+
+        private void đăngKýToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            DangKy frm = new DangKy();
             frm.ShowDialog();
             frm = null;
             this.Show();

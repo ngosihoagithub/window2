@@ -87,33 +87,34 @@
             // 
             // btn_Xoa
             // 
+            this.btn_Xoa.BackColor = System.Drawing.Color.IndianRed;
             this.btn_Xoa.Enabled = false;
             this.btn_Xoa.Font = new System.Drawing.Font("Times New Roman", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_Xoa.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btn_Xoa.Location = new System.Drawing.Point(13, 116);
+            this.btn_Xoa.Location = new System.Drawing.Point(13, 115);
             this.btn_Xoa.Margin = new System.Windows.Forms.Padding(4);
             this.btn_Xoa.Name = "btn_Xoa";
             this.btn_Xoa.Size = new System.Drawing.Size(133, 52);
             this.btn_Xoa.TabIndex = 55;
             this.btn_Xoa.Text = "    Xóa";
-            this.btn_Xoa.UseVisualStyleBackColor = true;
+            this.btn_Xoa.UseVisualStyleBackColor = false;
             this.btn_Xoa.Click += new System.EventHandler(this.btn_Xoa_Click);
             // 
             // TongTien
             // 
+            this.TongTien.BackColor = System.Drawing.Color.LawnGreen;
             this.TongTien.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.TongTien.Location = new System.Drawing.Point(13, 191);
+            this.TongTien.Location = new System.Drawing.Point(13, 178);
             this.TongTien.Margin = new System.Windows.Forms.Padding(4);
             this.TongTien.Name = "TongTien";
             this.TongTien.Size = new System.Drawing.Size(353, 52);
             this.TongTien.TabIndex = 61;
             this.TongTien.Text = "Thanh toán và In hóa đơn";
-            this.TongTien.UseVisualStyleBackColor = true;
+            this.TongTien.UseVisualStyleBackColor = false;
             this.TongTien.Click += new System.EventHandler(this.TongTien_Click);
             // 
             // txt_gia
             // 
-            this.txt_gia.Enabled = false;
             this.txt_gia.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txt_gia.Location = new System.Drawing.Point(147, 173);
             this.txt_gia.Margin = new System.Windows.Forms.Padding(4);
@@ -135,7 +136,6 @@
             // 
             // txt_tenthuoc
             // 
-            this.txt_tenthuoc.Enabled = false;
             this.txt_tenthuoc.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txt_tenthuoc.Location = new System.Drawing.Point(147, 84);
             this.txt_tenthuoc.Margin = new System.Windows.Forms.Padding(4);
@@ -146,7 +146,6 @@
             // 
             // txt_mathuoc
             // 
-            this.txt_mathuoc.Enabled = false;
             this.txt_mathuoc.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txt_mathuoc.Location = new System.Drawing.Point(147, 33);
             this.txt_mathuoc.Margin = new System.Windows.Forms.Padding(4);
@@ -168,7 +167,6 @@
             // 
             // txt_dangthuoc
             // 
-            this.txt_dangthuoc.Enabled = false;
             this.txt_dangthuoc.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txt_dangthuoc.Location = new System.Drawing.Point(147, 132);
             this.txt_dangthuoc.Margin = new System.Windows.Forms.Padding(4);
@@ -200,7 +198,6 @@
             // 
             // txt_thuoctrongkho
             // 
-            this.txt_thuoctrongkho.Enabled = false;
             this.txt_thuoctrongkho.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txt_thuoctrongkho.Location = new System.Drawing.Point(147, 225);
             this.txt_thuoctrongkho.Margin = new System.Windows.Forms.Padding(4);
@@ -222,6 +219,7 @@
             // 
             // btn_Add
             // 
+            this.btn_Add.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
             this.btn_Add.Font = new System.Drawing.Font("Times New Roman", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_Add.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btn_Add.Location = new System.Drawing.Point(13, 44);
@@ -230,24 +228,26 @@
             this.btn_Add.Size = new System.Drawing.Size(133, 52);
             this.btn_Add.TabIndex = 54;
             this.btn_Add.Text = "     Thêm";
-            this.btn_Add.UseVisualStyleBackColor = true;
+            this.btn_Add.UseVisualStyleBackColor = false;
             this.btn_Add.Click += new System.EventHandler(this.btn_Add_Click);
             // 
             // button1
             // 
+            this.button1.BackColor = System.Drawing.Color.IndianRed;
             this.button1.Font = new System.Drawing.Font("Times New Roman", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button1.Location = new System.Drawing.Point(232, 116);
+            this.button1.Location = new System.Drawing.Point(232, 115);
             this.button1.Margin = new System.Windows.Forms.Padding(4);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(134, 52);
             this.button1.TabIndex = 57;
             this.button1.Text = "        Thoát";
-            this.button1.UseVisualStyleBackColor = true;
+            this.button1.UseVisualStyleBackColor = false;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // button3
             // 
+            this.button3.BackColor = System.Drawing.Color.NavajoWhite;
             this.button3.Font = new System.Drawing.Font("Times New Roman", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button3.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.button3.Location = new System.Drawing.Point(232, 44);
@@ -256,7 +256,7 @@
             this.button3.Size = new System.Drawing.Size(136, 52);
             this.button3.TabIndex = 56;
             this.button3.Text = "Nhập Lại  ";
-            this.button3.UseVisualStyleBackColor = true;
+            this.button3.UseVisualStyleBackColor = false;
             this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // dta_soluong
@@ -333,7 +333,7 @@
             this.menuStrip1.ImageScalingSize = new System.Drawing.Size(20, 20);
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(1281, 24);
+            this.menuStrip1.Size = new System.Drawing.Size(1312, 24);
             this.menuStrip1.TabIndex = 81;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -450,6 +450,7 @@
             this.dta2.Size = new System.Drawing.Size(876, 238);
             this.dta2.TabIndex = 77;
             this.dta2.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dta2_CellContentClick_1);
+            this.dta2.Click += new System.EventHandler(this.dta2_Click);
             // 
             // dta_giaban
             // 
@@ -521,6 +522,7 @@
             this.groupBox1.TabIndex = 76;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Thêm thông tin";
+            this.groupBox1.Enter += new System.EventHandler(this.groupBox1_Enter);
             // 
             // db1
             // 
@@ -538,7 +540,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
-            this.ClientSize = new System.Drawing.Size(1281, 718);
+            this.ClientSize = new System.Drawing.Size(1312, 775);
             this.Controls.Add(this.label9);
             this.Controls.Add(this.menuStrip1);
             this.Controls.Add(this.groupBox2);

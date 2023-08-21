@@ -32,11 +32,9 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(main2));
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.mn_quanly = new System.Windows.Forms.ToolStripMenuItem();
-            this.toolStripTextBox1 = new System.Windows.Forms.ToolStripTextBox();
             this.ql_nhanvien = new System.Windows.Forms.ToolStripMenuItem();
             this.ql_ncc = new System.Windows.Forms.ToolStripMenuItem();
             this.quảnLýSảnPhẩmToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.quảnLýĐơnHàngToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.mn_banhang = new System.Windows.Forms.ToolStripMenuItem();
             this.mn_hethong = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripMenuItem1 = new System.Windows.Forms.ToolStripSeparator();
@@ -68,21 +66,13 @@
             // mn_quanly
             // 
             this.mn_quanly.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.toolStripTextBox1,
             this.ql_nhanvien,
             this.ql_ncc,
-            this.quảnLýSảnPhẩmToolStripMenuItem,
-            this.quảnLýĐơnHàngToolStripMenuItem});
+            this.quảnLýSảnPhẩmToolStripMenuItem});
             this.mn_quanly.Name = "mn_quanly";
             this.mn_quanly.Size = new System.Drawing.Size(116, 55);
             this.mn_quanly.Text = "Quản lý ";
             this.mn_quanly.Click += new System.EventHandler(this.mn_quanly_Click);
-            // 
-            // toolStripTextBox1
-            // 
-            this.toolStripTextBox1.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.toolStripTextBox1.Name = "toolStripTextBox1";
-            this.toolStripTextBox1.Size = new System.Drawing.Size(100, 27);
             // 
             // ql_nhanvien
             // 
@@ -104,13 +94,6 @@
             this.quảnLýSảnPhẩmToolStripMenuItem.Size = new System.Drawing.Size(347, 36);
             this.quảnLýSảnPhẩmToolStripMenuItem.Text = "- Quản lý sản phẩm";
             // 
-            // quảnLýĐơnHàngToolStripMenuItem
-            // 
-            this.quảnLýĐơnHàngToolStripMenuItem.Name = "quảnLýĐơnHàngToolStripMenuItem";
-            this.quảnLýĐơnHàngToolStripMenuItem.Size = new System.Drawing.Size(347, 36);
-            this.quảnLýĐơnHàngToolStripMenuItem.Text = "- Quản lý đơn hàng";
-            this.quảnLýĐơnHàngToolStripMenuItem.Click += new System.EventHandler(this.quảnLýĐơnHàngToolStripMenuItem_Click);
-            // 
             // mn_banhang
             // 
             this.mn_banhang.Name = "mn_banhang";
@@ -130,7 +113,7 @@
             // toolStripMenuItem1
             // 
             this.toolStripMenuItem1.Name = "toolStripMenuItem1";
-            this.toolStripMenuItem1.Size = new System.Drawing.Size(71, 6);
+            this.toolStripMenuItem1.Size = new System.Drawing.Size(221, 6);
             // 
             // mn_thongtin
             // 
@@ -148,6 +131,7 @@
             | System.Windows.Forms.Keys.X)));
             this.thôngTinPhầnMềmToolStripMenuItem.Size = new System.Drawing.Size(480, 36);
             this.thôngTinPhầnMềmToolStripMenuItem.Text = " - Thông tin phần mềm";
+            this.thôngTinPhầnMềmToolStripMenuItem.Click += new System.EventHandler(this.thôngTinPhầnMềmToolStripMenuItem_Click);
             // 
             // hỗTrợToolStripMenuItem1
             // 
@@ -194,7 +178,6 @@
         public System.Windows.Forms.ToolStripMenuItem mn_quanly;
         public System.Windows.Forms.ToolStripMenuItem ql_ncc;
         private System.Windows.Forms.ToolStripMenuItem quảnLýSảnPhẩmToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem quảnLýĐơnHàngToolStripMenuItem;
         public System.Windows.Forms.ToolStripMenuItem mn_banhang;
         public System.Windows.Forms.ToolStripMenuItem mn_hethong;
         private System.Windows.Forms.ToolStripSeparator toolStripMenuItem1;
@@ -204,6 +187,5 @@
         public System.Windows.Forms.Label lb_quyen;
         private System.Windows.Forms.NotifyIcon notifyIcon1;
         public System.Windows.Forms.ToolStripMenuItem ql_nhanvien;
-        private System.Windows.Forms.ToolStripTextBox toolStripTextBox1;
     }
 }

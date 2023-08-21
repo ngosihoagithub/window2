@@ -39,9 +39,10 @@
             this.đăngNhậpHệThốngToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.thôngTinToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.thoátToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.qunLyNhanVienToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.quanly = new System.Windows.Forms.ToolStripMenuItem();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.qunLyNhanVienToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.đăngKýToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
@@ -98,11 +99,12 @@
             this.đăngNhậpHệThốngToolStripMenuItem,
             this.thôngTinToolStripMenuItem,
             this.thoátToolStripMenuItem,
+            this.qunLyNhanVienToolStripMenuItem,
             this.quanly,
-            this.qunLyNhanVienToolStripMenuItem});
+            this.đăngKýToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(1110, 30);
+            this.menuStrip1.Size = new System.Drawing.Size(1110, 28);
             this.menuStrip1.TabIndex = 43;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -127,6 +129,13 @@
             this.thoátToolStripMenuItem.Text = "Thoát";
             this.thoátToolStripMenuItem.Click += new System.EventHandler(this.thoátToolStripMenuItem_Click);
             // 
+            // qunLyNhanVienToolStripMenuItem
+            // 
+            this.qunLyNhanVienToolStripMenuItem.Name = "qunLyNhanVienToolStripMenuItem";
+            this.qunLyNhanVienToolStripMenuItem.Size = new System.Drawing.Size(135, 24);
+            this.qunLyNhanVienToolStripMenuItem.Text = "QuanLyNhanVien";
+            this.qunLyNhanVienToolStripMenuItem.Click += new System.EventHandler(this.qunLyNhanVienToolStripMenuItem_Click);
+            // 
             // quanly
             // 
             this.quanly.Name = "quanly";
@@ -144,12 +153,12 @@
             this.pictureBox1.TabIndex = 44;
             this.pictureBox1.TabStop = false;
             // 
-            // qunLyNhanVienToolStripMenuItem
+            // đăngKýToolStripMenuItem
             // 
-            this.qunLyNhanVienToolStripMenuItem.Name = "qunLyNhanVienToolStripMenuItem";
-            this.qunLyNhanVienToolStripMenuItem.Size = new System.Drawing.Size(135, 26);
-            this.qunLyNhanVienToolStripMenuItem.Text = "QuanLyNhanVien";
-            this.qunLyNhanVienToolStripMenuItem.Click += new System.EventHandler(this.qunLyNhanVienToolStripMenuItem_Click);
+            this.đăngKýToolStripMenuItem.Name = "đăngKýToolStripMenuItem";
+            this.đăngKýToolStripMenuItem.Size = new System.Drawing.Size(78, 24);
+            this.đăngKýToolStripMenuItem.Text = "Đăng Ký";
+            this.đăngKýToolStripMenuItem.Click += new System.EventHandler(this.đăngKýToolStripMenuItem_Click);
             // 
             // main1
             // 
@@ -188,5 +197,6 @@
         private System.Windows.Forms.ToolStripMenuItem quanly;
         private System.Windows.Forms.ToolStripMenuItem qunLyNhanVienToolStripMenuItem;
         private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.ToolStripMenuItem đăngKýToolStripMenuItem;
     }
 }

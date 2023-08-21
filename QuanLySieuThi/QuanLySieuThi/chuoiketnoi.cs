@@ -60,7 +60,7 @@ namespace QuanLySieuThi
         }
 
 
-        // n bao câu lệnh chuoi select * cua minh sai
+       
 
         public static void timkiem(string chuoi, DataGridView db2)
         {
@@ -97,8 +97,6 @@ namespace QuanLySieuThi
 
             ad.Fill(dt);
         }
-
-        // ham xu ly thêm
         public static void them_dl(string sql1, DataGridView dt)
         {
             try
@@ -211,8 +209,6 @@ namespace QuanLySieuThi
             }
         }
 
-
-
         // kta ton tai tai khoan
         public static void ktratk(string tk, string newmk, string repass, string sql1, string sql2, string sql3)
         {
@@ -235,10 +231,7 @@ namespace QuanLySieuThi
 
                 SqlCommand com2 = new SqlCommand(sql3, mycon);
                 c = (int)com2.ExecuteScalar(); // tra ve 0 hoac 1 
-                // neu tra ve ten nguoi dung da ton tai va ta co the doi mk
-                // tra ve 0 thi tai khoan ko ton tai nen ko doi dc mk
-
-
+    
 
                 if (a > 0)
                 {
